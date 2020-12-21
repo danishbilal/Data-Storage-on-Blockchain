@@ -1,4 +1,4 @@
-# E-stamp- Data storage on Blockchain
+# E-stamp- Data storage on Blockchain (V1.0)
 ## This Repository contains Multichain Implementation of storing E-stamp data.
 # Pre-Requisites:
 - Vscode
@@ -7,6 +7,9 @@
 - MultiChain (stable version)
 - npm
 - Windows or Linux operating system
+
+# Folders for Customization
+- You can use "Backend" and "Frontend typescript" for customization.
 
 # General Instructuions
 - Only Admin can create new users.
