@@ -1,0 +1,50 @@
+{
+  "connection": "default",
+  "collectionName": "firs",
+  "info": {
+    "name": "fir"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "PersonName": {
+      "type": "string",
+      "required": true
+    },
+    "Hash": {
+      "type": "text",
+      "unique": false,
+      "required": false
+    },
+    "District": {
+      "type": "string",
+      "required": true
+    },
+    "PoliceStationAddress": {
+      "type": "string",
+      "required": true
+    },
+    "CrimeType": {
+      "type": "string",
+      "required": true
+    },
+    "CaseSummary": {
+      "type": "text",
+      "required": true
+    },
+    "IncidentLocation": {
+      "type": "string",
+      "required": true
+    },
+    "RegistrarDesignation": {
+      "type": "string",
+      "required": true
+    },
+    "RegistrarName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

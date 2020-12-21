@@ -1,0 +1,8 @@
+this is command to run multichain server on linux after having the repo
+ multichaind -datadir=/home/huzaifa/projects/thesis/msthesis/blockchain/MultiChain -port=4266 -rpcport=4267 thesischain
+stop multichain server
+sudo multichain-cli  -datadir=/home/huzaifa/projects/thesis/msthesis/blockchain/MultiChain -port=4266 -rpcport=4267 thesischain stop
+
+To allow access outside 
+go to bc/erupeehospital folder open multichain.conf file and append this line to allow all users
+rpcallowip=0.0.0.0/0

@@ -1,0 +1,3 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Read,100,136,18,252,45.20,0.000%,13.64815,12.81,6.84,961.0
+TOTAL,100,136,18,252,45.20,0.000%,13.64815,12.81,6.84,961.0

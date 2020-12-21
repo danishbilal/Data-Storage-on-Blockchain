@@ -1,0 +1,25 @@
+for first chain to run
+multichaind thesischain -port=4266
+multichaind -datadir=C:\Users\lenovo\AppData\Roaming\MultiChain\thesischain -port=4266
+multichain-cli thesischain liststreamitems stream1
+multichain-cli thesischain getstreamitem stream1 59eb3b3c61a19f37b756a90eea0fd47326bff6a881b5bae3c50ba961600e0b22
+OR
+multichaind -datadir=C:\Users\lenovo\AppData\Roaming\MultiChain -port=4266
+for 2nd chain to run
+multichaind -datadir=C:\Users\lenovo\AppData\Roaming\Multichain_Other -port=1025 -rpcport=1024 thesischain@192.168.138.1:4267
+
+smartfilter
+multichain-cli thesischain create streamfilter  filter1 "{}" "function filterstreamitem() { return \"Reject all items\"; }"
+
+ubutnu path
+ /root/.multichain/thesischain-v2/params.dat
+
+To allow ip
+rpcallowip=0.0.0.0/0
+ 
+ steps for new chain stream1
+ create chain
+crete stream1
+subscribe stream1
+allow rpcallowip
+change rpc credentails
